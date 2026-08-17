@@ -6,20 +6,13 @@
       "dest": "/api/$1"
     },
     {
-      "src": "/assets/(.*)",
-      "dest": "/assets/$1"
-    },
-    {
       "src": "/(.*)",
       "dest": "/index.html"
     }
   ],
   "functions": {
     "api/*.js": {
-      "runtime": "nodejs18.x",
-      "memory": 1024,
-      "maxDuration": 10
+      "runtime": "nodejs18.x"
     }
   }
 }
- 
